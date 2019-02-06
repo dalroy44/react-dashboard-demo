@@ -51,8 +51,11 @@ const dataJson = {
 
 const Chart = props => {
   const type = props.type;
+
   let chartConfigs = {
     type: type,
+    width: "100%",
+    height: "100%",
     dataFormat: "json",
     dataSource: dataJson
   };
